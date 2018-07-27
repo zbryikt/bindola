@@ -8,6 +8,6 @@
     facebook:
       clientID: \<your-facebook-clientid-here>
     google:
-      clientID: \<your-google-clientid-here>
+      clientID: \1039810801295-gh1o9ppad2b388ncg6qk8frbtv17mctd.apps.googleusercontent.com
   if module? => module.exports = config
 )!
