@@ -1,0 +1,17 @@
+from: '"Kirby from #{domain}" <contact@#{domain}>'
+subject: #{domain} Pro Plan Expired
+content: |
+  Hi #{displayname},
+
+  First, thank you for your support to #{domain}! It's people like you who make us sustainable. :)
+
+  We are here to inform you that your subscription of #{domain} pro plan has expired. Your account will be switched back to free plan, which still provides lots of free loaders and static svg icons with CC0 / CC-BY license, and no futher billing will be made again.
+
+  If you want to subscribe again, you can simply go to [https://#{domain}/pricing/](https://#{domain}/pricing/) and choose a plan for yourself.  To check your subscription status, please go to [https://#{domain}/me/billing/](https://#{domain}/me/billing/) (login required).
+
+  Thank you again for your support to #{domain} and look forward to seeing you when you need us next time. :)
+
+
+  Cheers,
+  Kirby
+  founder of #{domain}

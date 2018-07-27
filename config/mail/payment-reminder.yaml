@@ -1,0 +1,16 @@
+from: '"Kirby from #{domain}" <contact@#{domain}>'
+subject: #{domain} - Payment Invoice for Your Subscription
+content: |
+  Hi #{displayname},
+
+  This is a reminder that the invoice for your pro plan subscription in #{domain} will be available in 3 days. The balance will be automatically charged so you don't need to take any action.
+
+  You can view your payment history by visiting [https://#{domain}/me/billing/](https://#{domain}/me/billing/) after you login to #{domain}. For any question about payment or subscription, please reply this email directly.
+  
+  Thank you for your support to #{domain}! :)
+
+
+  Cheers,
+  Kirby
+  founder of #{domain}
+

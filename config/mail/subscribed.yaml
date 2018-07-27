@@ -1,0 +1,14 @@
+from: '"Kirby from #{domain}" <contact@#{domain}>'
+subject: #{domain} Subscribed
+content: |
+  Hi #{displayname},
+
+  Your #{domain} account is now upgraded to pro account!
+  
+  You can find information about your subscription at [https://#{domain}/me/billing/](https://#{domain}/me/billing) after login. Invoice and payment details for future recurring billings will also be available there.
+
+  Thank you for subscribing #{domain}!
+
+
+  Kirby
+  founder of #{domain}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'c0nsolas';
+  src: local('consolas');
+  unicode-range: U+30;
+}
+#landing {
+  background: linear-gradient(15deg, #026, #26a);
+  color: #fff;
+  width: 100%;
+  padding: 40px;
+}
+#landing h1 {
+  filter: url("#editing-extrusion");
+}
+#content {
+  max-width: 1024px;
+  width: 94%;
+  margin: auto;
+}
+#footer {
+  width: 100%;
+  padding: 40px;
+  background: linear-gradient(15deg, #000, #444);
+  color: #fff;
+  margin-top: 100px;
+}
+.g0v {
+  display: inline;
+  font-family: 'c0nsolas', sans-serif;
+}

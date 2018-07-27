@@ -1,0 +1,39 @@
+doctype html
+html
+  include /mixins/index.jade
+  include /filters/extrude.svg
+  head
+    meta(charset="utf-8")
+    +css("/css/pack/base.min.css")
+  body
+    #landing.text-center
+      +nbr(3)
+      h1 Bindo.la
+      p Your next generation online voting service
+      +nbr(3)
+    #content
+      +nbr(3)
+      h1.mb-4 What is Bindo.la?
+      .mb-3
+        ruby(style="font-weight:bold;font-size:1.2em")
+          rb bindo.la! 
+          rt 翻桌啦
+        | &nbsp;is an experimental online voting service ( tentative ) that helps you decide things. It originates from #[+g0v]'s project "don-democracy" and now used to host the Condorcet election method related projects like schulze.js.
+      p Everything here is in progress and is subject to change, but this site will mainly focus on the "voting" topic.
+      +nbr(3)
+
+      .row.text-center
+        .col-sm
+          h3 Schulze.js
+          p.text-left JavaScript implementation of Condorcet election method using Schulze Algorithm. For using along with Node.js or directly in browsers.
+          a.btn.btn-primary.btn-lg(href="https://github.com/zbryikt/schulze.js") GitHub
+
+        .col-sm
+          h3 Condorcet GSheet Add-on
+          p.text-left The Condorcet for Google Spreadsheet Add-on that helps you compute ranking from scores of candidates with Schulze Algorithm. Easy to use as a simple function call.
+          a.btn.btn-primary.btn-lg(href="https://github.com/zbryikt/schulze.js") Coming Soon
+    #footer
+      h4 Bindo.la #[small &copy; 2018 by PlotDB Ltd.]
+      .list
+        .item  Term of Use
+        .item Privacy Policy
